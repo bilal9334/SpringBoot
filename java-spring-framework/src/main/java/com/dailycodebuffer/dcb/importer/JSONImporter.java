@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 @Component("jsonImporter")
 public class JSONImporter implements BaseImporter{
 
+    public JSONImporter() {
+        System.out.println("JSONImporter Init.");
+    }
+
     public void importFile() {
         System.out.println("Importing JSON File");
 
