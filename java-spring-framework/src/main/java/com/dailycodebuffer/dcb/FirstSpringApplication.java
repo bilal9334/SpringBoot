@@ -12,6 +12,6 @@ public class FirstSpringApplication {
         System.out.println(applicationContext.getBean("employeeNumber"));
 
         System.out.println(applicationContext.getBean("employeeObj"));
-        System.out.println(applicationContext.getBean(Organization.class));
+        System.out.println(applicationContext.getBean("organization2"));
     }
 }
