@@ -1,5 +1,8 @@
 package com.dailycodebuffer.dcb.importer;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ImporterService {
 
     private BaseImporter importer;

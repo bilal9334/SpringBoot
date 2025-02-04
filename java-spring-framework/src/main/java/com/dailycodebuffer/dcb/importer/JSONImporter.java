@@ -1,5 +1,9 @@
 package com.dailycodebuffer.dcb.importer;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component("jsonImporter")
 public class JSONImporter implements BaseImporter{
 
     public void importFile() {
